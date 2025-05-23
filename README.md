@@ -1,4 +1,4 @@
-# GeeksForGeeks Problem Solutions
+# GeeksForGeeks Problem Solutions of POTD
 
 # Overview
 
