@@ -1,0 +1,16 @@
+class Solution {
+  public:
+    int minParentheses(string& s) {
+        int res = 0, st = 0;
+        for(auto it : s)
+        {
+            if(it=='(')
+            st++;
+            else if(st)
+            st--;
+            else
+            res++;
+        }
+        return res+st;
+    }
+};
