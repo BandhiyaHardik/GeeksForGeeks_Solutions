@@ -1,0 +1,7 @@
+class Solution {
+  public:
+    virtual int maxEdgesToAdd(int V, vector<vector<int>> &edges){
+      int maxEdges = (V*(V-1))/2;
+      return ((maxEdges) - (edges.size()));
+    }
+};
